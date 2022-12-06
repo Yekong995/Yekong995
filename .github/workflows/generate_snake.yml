@@ -14,7 +14,7 @@ on:
   # run on every push on the master branch
   push:
     branches:
-    - master
+    - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,11 +32,14 @@ jobs:
         github_user_name: ${{ github.repository_owner }}
         gif_out_path: ./asset/github-contribution-grid-snake.gif
         svg_out_path: ./asset/github-contribution-grid-snake.svg
-      
-    - uses: EndBug/add-and-commit@v7.2.1
-      with:
-        branch: main
-        message: "Generate Contribution Snake"
+
+name: Push
+jobs:
+    push:
+      - uses: EndBug/add-and-commit@v7.2.1
+        with:
+          branch: main
+          message: "Generate Contribution Snake"
 
         # list of files to generate.
         # one file per line. Each output can be customized with options as query string.
