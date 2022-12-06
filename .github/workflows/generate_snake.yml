@@ -32,6 +32,11 @@ jobs:
         github_user_name: ${{ github.repository_owner }}
         gif_out_path: ./asset/github-contribution-grid-snake.gif
         svg_out_path: ./asset/github-contribution-grid-snake.svg
+      
+    - uses: EndBug/add-and-commit@v7.2.1
+      with:
+        branch: main
+        message: "Generate Contribution Snake"
 
         # list of files to generate.
         # one file per line. Each output can be customized with options as query string.

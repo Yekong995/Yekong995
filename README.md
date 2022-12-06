@@ -11,3 +11,9 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yekong995&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
+<div>
+    <image src="https://raw.githubusercontent.com/Yekong995/Yekong995/main/asset/github-contribution-grid-snake.gif"
+</div>
+
+
+
