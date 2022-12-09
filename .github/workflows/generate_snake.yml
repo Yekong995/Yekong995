@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   # run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *" 
+    - cron: "0 0 * * *" 
   # allows to manually run the job at any time
   workflow_dispatch:
   
