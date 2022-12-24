@@ -16,5 +16,9 @@
 <div>
     <img src="https://raw.githubusercontent.com/Yekong995/Yekong995/output/github-contribution-grid-snake-dark.svg"
 </div>
+<p style="background: linear-gradient(to right, red, orange, yellow, green, cyan, blue,  purple);-webkit-background-clip: text;-webkit-text-fill-color: transparent;animation:  hue 3s linear infinite;font-size: 100px;padding: 20px;">Hello World</p>
+
+
+
 
 
